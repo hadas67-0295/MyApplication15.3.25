@@ -11,6 +11,11 @@ public class TableDataBase {
     private String string;
     private Integer number;
     private String percent;
+    public TableDataBase(String string,Integer number,String percent){
+        this.string=string;
+        this.number=number;
+        this.percent=percent;
+    }
 
     public int getId() {
         return this.id;
@@ -42,5 +47,8 @@ public class TableDataBase {
 
     public void setPercent(String percent) {
         this.percent = percent;
+    }
+    public String toString() {
+        return "ID: " + id + ", Text: " + string + ", Number: " + number + ", Percent: " + percent;
     }
 }
