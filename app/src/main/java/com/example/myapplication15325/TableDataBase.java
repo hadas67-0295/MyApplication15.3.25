@@ -13,7 +13,7 @@ public class TableDataBase {
     private String percent;
 
     public int getId() {
-        return id;
+        return this.id;
     }
 
     public void setId(int id) {
@@ -21,7 +21,7 @@ public class TableDataBase {
     }
 
     public String getString() {
-        return string;
+        return this.string;
     }
 
     public void setString(String string) {
@@ -29,7 +29,7 @@ public class TableDataBase {
     }
 
     public Integer getNumber() {
-        return number;
+        return this.number;
     }
 
     public void setNumber(Integer number) {
@@ -37,7 +37,7 @@ public class TableDataBase {
     }
 
     public String getPercent() {
-        return percent;
+        return this.percent;
     }
 
     public void setPercent(String percent) {
